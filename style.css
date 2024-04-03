@@ -56,7 +56,12 @@ header ul li a{
     color: #333;
     transition: 0.5s;
 }
-
+header ul li a:hover{
+    color: blue;
+    font-weight: bold;
+    background-color: aquamarine;
+    transition: 1s;
+}
 .content{
     position:relative;
     max-width: 700px;
